@@ -15,17 +15,7 @@ export default function EditAppointmentForm({ show, onHide, onSubmit}) {
     }
   };
 
-//   const handleChange = (e) => {
-//     setFormData({
-//       ...formData,
-//       [e.target.name]: e.target.value,
-//     });
-//   };
-//   const handleSubmit = () => {
-//     if (formData.date && formData.time) {
-//       onSubmit(formData);
-//     }
-//   };
+
 
   return (
     <div
@@ -46,6 +36,7 @@ export default function EditAppointmentForm({ show, onHide, onSubmit}) {
             onChange={(e) => setNewDate(e.target.value)}
           />
           <br />
+          <br />
           <label htmlFor="">Time : </label>
           <input
             type="time"
@@ -59,7 +50,7 @@ export default function EditAppointmentForm({ show, onHide, onSubmit}) {
           <Button variant="secondary" onClick={onHide}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleEditSubmit}>
+          <Button variant="light" onClick={handleEditSubmit}>
             Add Client
           </Button>
         </Modal.Footer>

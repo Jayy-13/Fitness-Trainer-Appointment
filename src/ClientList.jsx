@@ -76,6 +76,9 @@ export default function ClientList() {
         (_, index) => index !== appIndex
       );
       newClients[clientIndex] = client;
+      if (client.appointments.length === 0) {
+        newClients.splice(clientIndex, 1);
+      }
       return newClients;
     });
   };

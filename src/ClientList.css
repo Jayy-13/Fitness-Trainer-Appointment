@@ -1,0 +1,84 @@
+#thead{
+    background-color: #DED0B6;
+    font: 1.25em sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #DED0B6;
+    border-radius: 8px;
+}
+.th{
+    padding: 0.5rem 2rem;
+}
+#tr{
+    padding: 1rem;
+    margin: 1rem;
+    font: 1.25em sans-serif;
+}
+#appointment{
+    padding: 1rem;
+}
+#editApp{
+    margin: 0.5rem;
+}
+button{
+    margin: 0.5rem;
+}
+.td{
+    background-color: burlywood;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.table{
+    max-width: 90vw;
+    justify-content: center;
+}
+hr{
+    display: none;
+}
+.button:hover{
+    background-color: #DED0B6;
+    border-color: black;
+}
+#addAppBtn:hover{
+    background-color: #DED0B6;
+    border-color: black;
+}
+#clientList{
+    display: inline !important;
+    margin-right: 10em;
+}
+#calendarBtn{
+    display: inline;
+}
+@media only screen and (max-width : 480px) {
+    #thead{
+        font: 1em sans-serif;
+    }
+    #tr{
+        font: 0.9em sans-serif;
+    }
+    .button{
+        width: 70px;
+        margin: 0.2rem;
+        font-size: 0.8em;
+    }
+    #addAppBtn{
+        font-size: 0.8em;
+    }
+    .table{
+        max-width: 100vw;
+        border: 1px solid #DED0B6;
+    }
+    #appointment{
+        padding: 0;
+    }
+    .td{
+        margin: 0;
+    }
+    hr{
+        display: flex;
+    }
+    th,td{
+        border: 1px solid #DED0B6;
+    }
+}

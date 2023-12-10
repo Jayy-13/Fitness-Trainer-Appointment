@@ -60,6 +60,7 @@ export default function ClientForm({ onSubmit, onCancel }) {
             onChange={handleChange}
           />
           <br />
+          <br />
           <label htmlFor="">Last Name : </label>
           <input
             type="text"
@@ -68,6 +69,7 @@ export default function ClientForm({ onSubmit, onCancel }) {
             onChange={handleChange}
           />
           <br />
+          <br />
           <label htmlFor="">Location : </label>
           <input
             type="text"
@@ -75,7 +77,8 @@ export default function ClientForm({ onSubmit, onCancel }) {
             value={formData.location}
             onChange={handleChange}
           />
-          <h3>Appointment</h3>
+          <br />
+          <h5>Appointment</h5>
           <label htmlFor="">Date : </label>
           <input
             type="date"
@@ -83,6 +86,7 @@ export default function ClientForm({ onSubmit, onCancel }) {
             value={formData.date}
             onChange={handleAppointmentChange}
           />
+          <br />
           <br />
           <label htmlFor="">Time : </label>
           <input
@@ -97,7 +101,7 @@ export default function ClientForm({ onSubmit, onCancel }) {
           <Button variant="secondary" onClick={onCancel}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleSubmit}>
+          <Button variant="light" onClick={handleSubmit} >
             Add Client
           </Button>
         </Modal.Footer>

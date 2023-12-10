@@ -31,6 +31,7 @@ export default function ClientList() {
 
   const handleEditAppointmentSubmit = (newDate, newTime) => {
     if (selectedAppointment) {
+      alert("Appointment Edited succesfully");
       const { clientIndex, appIndex } = selectedAppointment;
       setClients((prevClients) => {
         const newClients = [...prevClients];
@@ -44,6 +45,7 @@ export default function ClientList() {
   };
 
   const handleAddClient = (client) => {
+    alert("Client Added successfully");
     const newClient = {
       firstName: client.firstName,
       lastName: client.lastName,
@@ -60,6 +62,7 @@ export default function ClientList() {
   };
 
   const handleAddAppointment = (clientIndex, appointment) => {
+    alert("Appointment added successfully");
     setClients((prevClients) => {
       const newClients = [...prevClients];
       newClients[clientIndex].appointments.push(appointment);
@@ -195,7 +198,7 @@ export default function ClientList() {
                         variant="light"
                         className="button"
                         id="delApp"
-                        onClick={() => handleDeleteAppointment(index, appIndex)}
+                        onClick={() => {handleDeleteAppointment(index, appIndex);alert("Appointment deleted successfully");}}
                       >
                         Delete
                       </Button>

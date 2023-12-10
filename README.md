@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite - Fitness Trainer Appointment Scheduling
 
 This project serves as the front-end component of a Fitness Trainer Application, offering seamless appointment management for fitness trainers. The application empowers trainers to efficiently handle their appointments, enabling them to perform tasks such as adding new clients, creating appointments for existing clients, editing appointment details, and deleting appointments. Clients without any associated appointments are automatically removed.
 
@@ -35,4 +35,31 @@ Now the user can add an appointment by clicking on Add Appointment button. A mod
 
 
    ![FTA-AddApp](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/43dcde9b-2089-4a88-9a90-67d342b7c154)
+
+
+   Users can click the Show Calendar button to get a calendar view of their appointments.
+
+   5) Calendar View
+
+![FTA-SC1](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/249c63b4-2935-4519-9bbd-25c3b186a08d)
+
+
+They can click on the Day option on the right side to view appointments for the day along with the name and time. The duration of each appointment is assumed to be 1 hour.
+
+6) Calendar View - Day 
+
+![FTA-SC2](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/6d972ae5-1e7d-4bc3-bbd0-d703693d4a5e)
+
+
+Users can click on Agenda button to view all the booked appointments with the names.
+
+7) Calendar View - Agenda
+
+![FTA-SC3](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/298650d1-1e95-45e9-8928-b9eeb49118ec)
+
+
+Finally, they can click on Back to Clients Page button to view the Table format.
+
+
+
 

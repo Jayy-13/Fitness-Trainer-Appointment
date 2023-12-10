@@ -37,6 +37,9 @@ Now the user can add an appointment by clicking on Add Appointment button. A mod
    ![FTA-AddApp](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/43dcde9b-2089-4a88-9a90-67d342b7c154)
 
 
+Users can use Edit and Delete buttons provided alongside each appointment to edit and delete the respective appointment. Clicking on Edit will show a modal which contains a form to enter new date and time. Clicking on Delete will simply delete that appointment
+
+
    Users can click the Show Calendar button to get a calendar view of their appointments.
 
    5) Calendar View

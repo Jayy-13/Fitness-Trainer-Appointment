@@ -96,11 +96,21 @@ export default function ClientList() {
     setEditingField(null);
   };
 
+  const handleBackToClients = () => {
+    setShowCalendar(false);
+  };
+
   return (
     <div>
-        <h2 id="clientList">Client List</h2>
-      <button id="calendarBtn" onClick={() => setShowCalendar(true)} >Show Calendar</button>
-      <Table responsive="sm" className="table">
+      {showCalendar ?  (
+        <CalendarComp
+        clients={clients} 
+        backToClients = {handleBackToClients} />
+      ) : (
+        <div>
+          <h2 id="clientList">Client List</h2>
+          <button id="calendarBtn" onClick={() => setShowCalendar(true)} >Show Calendar</button>
+          <Table responsive="sm" className="table">
         <thead id="thead">
           <tr>
             <th className="th">First Name</th>
@@ -205,10 +215,12 @@ export default function ClientList() {
           })}
         </tbody>
       </Table>
-
       <button onClick={() => setAddClient(true)} id="addClient" >
         Add New Client
       </button>
+        </div>
+      )}
+      
 
       {addClient && (
         <ClientForm
@@ -235,11 +247,11 @@ export default function ClientList() {
         />
       )}
 
-      {showCalendar && (
-        <CalendarComp
+       {/* {showCalendar && (
+          <CalendarComp
             clients={clients}
         />
-      )}
+      )} */}
     </div>
   );
 }

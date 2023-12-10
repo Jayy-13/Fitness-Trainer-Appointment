@@ -13,8 +13,26 @@ Walk through:
 On Clicking Add Client button, a modal will pop up which will display a form allowing the user to fill the required details.
 
 2) Add Client Form
+
+
    ![FTA-AddClient](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/d1591782-de87-403c-95ec-eddf50d463da)
 ![FTA-AddClient2](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/69d42f93-d5ed-4df8-8737-9a3909f7bd2f)
-On Clicking Add Client Button, these details are saved and get reflected in the homepage.
+
+
+On Clicking Add Client Button, these details are saved and get reflected in the homepage. Also an alert will pop up telling the user that he/she has successfully added a client.
+
+
 3)Homepage After Adding a Client
+
+
 ![FTA-Homepage2](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/64e9d5c9-24de-45a5-8edd-174db8eb65e4)
+
+
+Now the user can add an appointment by clicking on Add Appointment button. A modal with a form to fill the new appointment details for that particular client will pop up.
+
+
+4) Add Appointment Form
+
+
+   ![FTA-AddApp](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/43dcde9b-2089-4a88-9a90-67d342b7c154)
+

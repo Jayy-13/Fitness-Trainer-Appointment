@@ -10,3 +10,11 @@ Walk through:
 1) Homepage
 ![FTA-Homepage1](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/5c6c381f-540c-4e58-ba12-097060089ff7)
 
+On Clicking Add Client button, a modal will pop up which will display a form allowing the user to fill the required details.
+
+2) Add Client Form
+   ![FTA-AddClient](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/d1591782-de87-403c-95ec-eddf50d463da)
+![FTA-AddClient2](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/69d42f93-d5ed-4df8-8737-9a3909f7bd2f)
+On Clicking Add Client Button, these details are saved and get reflected in the homepage.
+3)Homepage After Adding a Client
+![FTA-Homepage2](https://github.com/Jayy-13/fitness-trainer-appointment/assets/97361502/64e9d5c9-24de-45a5-8edd-174db8eb65e4)
